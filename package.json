@@ -1,0 +1,21 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manju Bala",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.8.0",
+    "cypress-cucumber-preprocessor": "^4.0.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "dependencies": {
+    "chokidar": "^2.1.8"
+  }
+}
